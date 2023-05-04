@@ -15,6 +15,7 @@ module.exports = {
     defineOptions: 'readonly',
     __dirname: 'readonly',
     Buffer: 'readonly',
+    process: 'readonly',
   },
   rules: {
     'array-bracket-spacing': ['error', 'never'],
