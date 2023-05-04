@@ -7,6 +7,9 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest',
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
   globals: {
     module: 'readonly',
