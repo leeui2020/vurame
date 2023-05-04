@@ -20,5 +20,12 @@ export default ({ mode }) => {
         '@': fileURLToPath(new URL('./src', import.meta.url)),
       },
     },
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@import "./src/styles/global/index.scss";',
+        },
+      },
+    },
   });
 };

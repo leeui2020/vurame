@@ -30,6 +30,7 @@
     "eslint-config-tencent": "^1.0.4",
     "eslint-plugin-vue": "^9.9.0",
     "jsdom": "^21.1.0",
+    "sass": "^1.62.1",
     "vite": "^4.1.4",
     "vitest": "^0.29.1"
   }
